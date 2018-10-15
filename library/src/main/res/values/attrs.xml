@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ParallaxSlideMenuLayout">
+        <attr name="catt_MenuLayout" format="reference" />
+        <attr name="catt_OverlayPercentage" format="float" />
+        <attr name="catt_ContentLayout" format="reference" />
+        <attr name="catt_ContentContraction_MarginEndPercentage" format="float" />
+        <attr name="catt_ContentLayout_Elevation" format="dimension" />
+    </declare-styleable>
+
+
+</resources>

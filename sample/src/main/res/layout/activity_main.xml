@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<catt.custom.view.ParallaxSlideMenuLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:catt_ContentContraction_MarginEndPercentage="0.15"
+    app:catt_ContentLayout="@layout/include_content"
+    app:catt_ContentLayout_Elevation="16dp"
+    app:catt_MenuLayout="@layout/include_menu"
+    app:catt_OverlayPercentage="0.5">
+
+</catt.custom.view.ParallaxSlideMenuLayout>
