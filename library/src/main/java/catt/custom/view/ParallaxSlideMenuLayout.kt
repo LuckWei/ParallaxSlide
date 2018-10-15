@@ -85,6 +85,7 @@ class ParallaxSlideMenuLayout
                 }
                 FrameLayout(context).apply frameLayout@{
                     layoutParams = contentLayoutParams
+                    outlineProvider = ViewOutlineProvider.BOUNDS
                     elevation = getDimensionPixelSize(R.styleable.ParallaxSlideMenuLayout_catt_ContentLayout_Elevation, 16).run contentElevation@{
                         convertPx(TypedValue.COMPLEX_UNIT_DIP, this@contentElevation)
                     }
